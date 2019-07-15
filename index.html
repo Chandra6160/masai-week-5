@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>list of Companies</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <div id="flex-box">
+      <div id="printAll">
+        <button id="printCompany"  style="color:black;width: 320px;" onclick="printCompany()" >Click Me!!!  to Show all share market data of Companies</button>
+      </div>
+      <div id="stock_price">
+        <button id="printCompany"  style="color:black;width: 320px;" onclick="printStocks()" >Click Me!!!  to show Top 10 Companies of Stock Price </button>
+      </div>
+      <div id="market_cap">
+        <button id="printCompany"  style="color:black;width: 320px;" onclick="printMarket()" >Click Me!!!  to Show Top 10 Companies of Market Cap</button>
+      </div>
+      <div id="search">
+        <h2>Search for Stock Symbol </h2>
+        <input type="text" name="" value="" id="input">
+        <button type="button" onclick="printSearch()">Search</button>
+      </div>
+      <div id="alert">
+      </div>
+    </div>
+    <div id="output">
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

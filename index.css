@@ -1,0 +1,74 @@
+body
+{
+  background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+  font-family: sans-serif;
+  color: white;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+#searchButton
+{
+  height: 43px;
+  width: 80px;
+  font-size: 20px;
+  color: black;
+  margin-top: -43px;
+  margin-left: 150px;
+  box-shadow: inset 0 1px 0 rgba(236,237,237,.6),0 1px 2px rgba(0,0,0,.05);
+}
+#output
+{
+  padding-left: 46px;
+  margin-left: 150px;
+  width: auto;
+  height: auto;
+  margin-top: 200px;
+  background-color:rgba(0,0,0,0.25);
+  box-shadow:1px 1px 5px black;
+  padding: 50px;
+  border-radius: 10px;
+  position: absolute;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns:400px 400px;
+  grid-template-rows: 200px 200px;
+  padding: 20px;
+}
+#myTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  align-items:center;
+}
+
+#myTable td, #myTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#myTable tr:hover {background-color: #4CAF50;}
+#myTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#flex-box
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#flex-box div
+{
+  margin: 10px;
+  height: auto;
+  width: auto;
+}
+#output div
+{
+  padding-top: 10px;
+  background: firebrick;
+  font-size: 20px;
+  text-align: center;
+}
